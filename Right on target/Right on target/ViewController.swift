@@ -11,10 +11,26 @@ class ViewController: UIViewController {
     @IBOutlet var slider: UISlider!
     @IBOutlet var label: UILabel!
     
+    lazy var secondViewController: SecondViewController = getSecondViewController()
+    
     var number: Int = 0
     var round: Int = 1
     var points: Int = 0
     
+    private func getSecondViewController() -> SecondViewController {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController = storyboard.instantiateViewController(identifier: "SecondViewController")
+        return viewController as! SecondViewController
+    }
+    
+    @IBAction func showNextScreen() {
+        self.present(secondViewController, animated: true, completion: nil)
+    }
+    
+    override func loadView() {
+        super.loadView()
+        print("loadView")
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +39,22 @@ class ViewController: UIViewController {
         self.label.text = String(number)
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("viewWillAppear")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("viewWillDissapear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("viewWDidDissapear")
+    }
+    
     
     @IBAction func checkNumber() {
 
@@ -49,6 +81,10 @@ class ViewController: UIViewController {
         self.number = Int.random(in: 0...50)
         self.label.text = String(self.number)
     }
+    
+    
+    
+    
 
 
 }

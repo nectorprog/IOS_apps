@@ -13,6 +13,7 @@
 		CE3E14872BBEA1CC0062F8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E14852BBEA1CC0062F8E4 /* Main.storyboard */; };
 		CE3E14892BBEA1CE0062F8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E14882BBEA1CE0062F8E4 /* Assets.xcassets */; };
 		CE3E148C2BBEA1CE0062F8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E148A2BBEA1CE0062F8E4 /* LaunchScreen.storyboard */; };
+		CE63F2F12BC091AE00E283C1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63F2F02BC091AE00E283C1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CE3E14882BBEA1CE0062F8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3E148B2BBEA1CE0062F8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3E148D2BBEA1CE0062F8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE63F2F02BC091AE00E283C1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CE3E14882BBEA1CE0062F8E4 /* Assets.xcassets */,
 				CE3E148A2BBEA1CE0062F8E4 /* LaunchScreen.storyboard */,
 				CE3E148D2BBEA1CE0062F8E4 /* Info.plist */,
+				CE63F2F02BC091AE00E283C1 /* SecondViewController.swift */,
 			);
 			path = "Right on target";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE63F2F12BC091AE00E283C1 /* SecondViewController.swift in Sources */,
 				CE3E14842BBEA1CC0062F8E4 /* ViewController.swift in Sources */,
 				CE3E14802BBEA1CC0062F8E4 /* AppDelegate.swift in Sources */,
 				CE3E14822BBEA1CC0062F8E4 /* SceneDelegate.swift in Sources */,
