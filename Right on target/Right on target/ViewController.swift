@@ -23,10 +23,6 @@ class ViewController: UIViewController {
         return viewController as! SecondViewController
     }
     
-    @IBAction func showNextScreen() {
-        self.present(secondViewController, animated: true, completion: nil)
-    }
-    
     override func loadView() {
         super.loadView()
         print("loadView")
