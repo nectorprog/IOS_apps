@@ -50,9 +50,11 @@
 
 **Схема архитектуры MVC приложения:**
 **v1**
+
 ![MVC Architecture v1](https://github.com/nectorprog/IOS_apps/assets/109895680/3bd9544a-49f3-4809-9c9c-edeed5adfa76)
 
 **v2**
+
 ![MVC Architecture v2](https://github.com/nectorprog/IOS_apps/assets/109895680/fa4951d4-e8cf-4238-b7dc-dd87c5a14c4b)
 
 ---
